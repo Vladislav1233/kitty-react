@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import bem from 'helpers/bem';
 
 function App() {
+  const bemCls = bem('app');
+
   return (
-    <div className="App">
+    <div className={bemCls()}>
       
     </div>
   );
