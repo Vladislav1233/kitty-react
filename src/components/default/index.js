@@ -1,4 +1,4 @@
-// Note: if you need a component you can copy this file and rename one instead Default.
+// Note: if you need to create a component you can copy this file and rename one instead Default.
 
 import React, { Component } from 'react';
 import './style/index.scss';

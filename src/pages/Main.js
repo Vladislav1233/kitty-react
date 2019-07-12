@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import bem from 'helpers/bem';
 
 // Note: components
 import PageTitle from 'components/uiKit/PageTitle';
 import ProductList from 'components/ProductList';
 import PhotoCat from 'style/images/content/cat-photo.png';
+
+// Note: styles
+import 'style/b-main-page/index.scss';
 
 // Todo: test data. Integration it.
 const dataProductList = [{
@@ -52,16 +56,20 @@ const dataProductList = [{
   weight: '5'
 }];
 
+const bemCls = bem('main-page');
+
 class Main extends Component {
   render() {
     return(
-      <div className="b-main-page">
+      <div className={bemCls()}>
         <div className="b-container">
-          <PageTitle>Ты сегодня покормил кота?</PageTitle>
+          <div className={bemCls('content')}>
+            <PageTitle>Ты сегодня покормил кота?</PageTitle>
 
-          <ProductList 
-            list={dataProductList}
-          />
+            <ProductList 
+              list={dataProductList}
+            />
+          </div>
         </div>
       </div>
     )

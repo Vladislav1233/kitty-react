@@ -1,10 +1,7 @@
 /* 320++  */
 .b-page-wrapper {
-    min-height: 100%;
     background-image: url('style/images/inhtml/background.jpg');
     background-repeat: repeat;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
     position: relative;
 
     &::before {
