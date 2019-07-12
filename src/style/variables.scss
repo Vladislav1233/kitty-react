@@ -1,0 +1,54 @@
+// Fonts
+$font-base: "trebuchetms";
+$font-base-bold: "trebuchetms-bold";
+$additional-font: "exo-thin";
+
+// Animation
+$animation-time: 0.3s;
+$double-animation: 0.6s;
+
+// MediaQ - теперь подключаются в layout
+// $desktop: "(max-width: 1360px)";
+// $desktop-min: "(max-width: 1024px)";
+// $tablet: "(min-width: 768px)";
+
+// Основные цвета
+$cl-transparent: transparent;
+$cl-white: #ffffff;
+$cl-black: #000000;
+$cl-blue: #1698d9;
+$cl-light-blue: #2ea8e5;
+$cl-pink: #d91667;
+$cl-light-pink: #e62e7a;
+$cl-gray: #b3b3b3;
+$cl-light-gray: #f2f2f2;
+$cl-dark-grey: #666666;
+
+// Colors
+// Цвета theme. Не трогать!!!
+$cl-theme-global: $cl-black;
+$cl-theme-link: $cl-blue;
+$cl-theme-link-hover: $cl-light-blue;
+$cl-theme-grey: $cl-gray;
+
+// Цвета текста
+$cl-font-main: $cl-white;
+$cl-font-light: $cl-dark-grey;
+
+/* Добавлять по категориям cl-элемент
+/* $cl-button-bg: $Var */
+$background: $cl-white;
+$cl-description-text: $cl-dark-grey;
+$cl-disabled-style: transparentize($cl-gray, 0.5);
+
+// разделитель между секция
+$hr-main: $cl-gray;
+
+// ------
+// ЦВЕТА
+// ------
+
+// // Alpha colors
+// // $cl-alpha: rgba(255, 255, 255, .2); // цвет + описание
+
+// Генерируемые цвета - ниже не пишем ничего сами )

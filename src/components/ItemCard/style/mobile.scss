@@ -1,0 +1,61 @@
+/* 320++  */
+.b-item-card {
+    border: 4px solid $cl-blue;
+    border-radius: 10px;
+    background-color: $cl-light-gray;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    transition: border-color $animation-time;
+
+    &--selected {
+        border-color: $cl-pink;
+    }
+
+    &--disabled {
+        border-color: $cl-disabled-style;
+    }
+
+    &__name {
+        font-family: $font-base-bold;
+        font-size: 4.8rem;
+        line-height: 1;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+        span {
+            font-size: 2.4rem;
+            display: block;
+        }
+    }
+
+    &__image-wrapper {
+        position: absolute;
+        bottom: -20px;
+        left: -10px;
+    }
+
+    &__information {
+        position: relative;
+        z-index: 1;
+        padding: 14px 32px;
+        min-height: 47.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__weight {
+        margin: auto -20px -4px auto;
+    }
+
+    &--disabled & {
+
+        &__name {
+            color: $cl-disabled-style;
+        }
+
+        &__image-wrapper {
+            opacity: 0.5;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+/* 320++  */
+$weight-label-size: 8rem;
+
+.b-weight-label {
+    width: $weight-label-size;
+    height: $weight-label-size;
+    background-color: $cl-blue;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: background-color $animation-time;
+
+    &--selected {
+        background-color: $cl-pink;
+    }
+
+    &--disabled {
+        background-color: $cl-gray;
+    }
+
+    &__value {
+        font-size: 4.2rem;
+    }
+
+    &__unit {
+        font-size: 2.1rem;
+    }
+}

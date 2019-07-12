@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "exo-thin";
+    font-display: swap;
+    src: url("style/fonts/exo-thin.eot");
+    src: url("style/fonts/exo-thin.eot?#iefix") format("embedded-opentype"),
+        url("style/fonts/exo-thin.woff") format("woff"),
+        url("style/fonts/exo-thin.woff2") format("woff2"),
+        url("style/fonts/exo-thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "trebuchetms";
+    font-display: swap;
+    src: url("style/fonts/trebuchetms.eot");
+    src: url("style/fonts/trebuchetms.eot?#iefix") format("embedded-opentype"),
+        url("style/fonts/trebuchetms.woff") format("woff"),
+        url("style/fonts/trebuchetms.woff2") format("woff2"),
+        url("style/fonts/trebuchetms.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "trebuchetms-bold";
+    font-display: swap;
+    src: url("style/fonts/trebuchetms-bold.eot");
+    src: url("style/fonts/trebuchetms-bold.eot?#iefix") format("embedded-opentype"),
+        url("style/fonts/trebuchetms-bold.woff") format("woff"),
+        url("style/fonts/trebuchetms-bold.woff2") format("woff2"),
+        url("style/fonts/trebuchetms-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@import "style/variables.scss";
+@import "style/theme.scss";
+@import "style/normalize.scss";
+
+
+@import "style/default/index.scss";
+@import "style/b-container/index.scss";
+@import "style/b-page-wrapper/index.scss";
+@import "style/b-main/index.scss";

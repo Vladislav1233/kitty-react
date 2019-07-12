@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.scss';
-import bem from 'helpers/bem';
 
-function App() {
-  const bemCls = bem('app');
+// Note: pages
+import Main from 'pages/Main';
+
+const App = () => {
 
   return (
-    <div className={bemCls()}>
-      
-    </div>
+    <main className="b-main">
+      <Main />
+    </main>
   );
 }
 
