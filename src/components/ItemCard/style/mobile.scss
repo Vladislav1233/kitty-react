@@ -30,6 +30,9 @@
         position: absolute;
         bottom: -20px;
         left: -10px;
+        width: 100%;
+        transition-property: left, bottom;
+        transition-duration: $animation-time;s
 
         img {
             max-height: 275px;

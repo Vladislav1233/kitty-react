@@ -8,6 +8,10 @@
         &__figure:before {
             border-color: $cl-light-blue;
         }
+
+        &__image-wrapper {
+            left: -5px;
+        }
     }
 
     &--selected.b-item-card--hover & {
