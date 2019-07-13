@@ -11,7 +11,7 @@ class DescriptionText extends Component {
     const { data, modif } = this.props;
 
     return(
-      <p className={bemCls('', modif)}>
+      <p className={bemCls({ [modif]: !!modif })}>
         {data.prefix ? <span className={bemCls('prefix')}>{data.prefix}</span> : null}
         {data.text}
       </p>

@@ -1,0 +1,9 @@
+.b-item-card {
+    &--hover {
+        border-color: $cl-light-blue;
+    }
+
+    &--selected.b-item-card--hover {
+        border-color: $cl-light-pink;
+    }
+}

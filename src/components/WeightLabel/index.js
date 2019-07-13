@@ -7,10 +7,14 @@ const bemCls = bem('weight-label');
 
 class WeightLabel extends Component {
   render() {
-    const { value } = this.props;
+    const { value, isSelected, isDisabled, isHover } = this.props;
 
     return(
-      <div className={bemCls()}>
+      <div className={bemCls({ 
+        selected: isSelected,
+        disabled: isDisabled,
+        hover: isHover
+      })}>
         <div className={bemCls('value')}>{value}</div>
         <div className={bemCls('unit')}>кг</div>
       </div>
@@ -19,7 +23,10 @@ class WeightLabel extends Component {
 }
 
 WeightLabel.propTypes = {
-  value: Pt.string.isRequired
+  value: Pt.string.isRequired,
+  isDisabled: Pt.bool,
+  isSelected: Pt.bool,
+  isHover: Pt.bool
 };
 
 export default WeightLabel;

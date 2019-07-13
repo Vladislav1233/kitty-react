@@ -1,0 +1,10 @@
+.b-weight-label {
+
+    &--hover {
+        background-color: $cl-light-blue;
+    }
+
+    &--selected.b-weight-label--hover {
+        background-color: $cl-light-pink;
+    }
+}

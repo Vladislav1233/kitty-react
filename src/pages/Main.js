@@ -23,7 +23,9 @@ const dataProductList = [{
   }, {
     text: 'мышь в подарок'
   }],
-  weight: '0,5'
+  weight: '0,5',
+  disabled: false,
+  textSelectedCard: 'Печень утки разварная с артишоками.'
 }, {
   src: PhotoCat,
   descriptionTitle: {
@@ -37,7 +39,9 @@ const dataProductList = [{
   }, {
     text: '2 мыши в подарок'
   }],
-  weight: '2'
+  weight: '2',
+  disabled: false,
+  textSelectedCard: 'Головы щучьи с чесноком да свежайшая сёмгушка.'
 }, {
   src: PhotoCat,
   descriptionTitle: {
@@ -53,7 +57,9 @@ const dataProductList = [{
   }, {
     text: 'Заказчик доволен'
   }],
-  weight: '5'
+  weight: '5',
+  disabled: true,
+  textSelectedCard: 'Филе из цыплят с трюфелями в бульоне.'
 }];
 
 const bemCls = bem('main-page');

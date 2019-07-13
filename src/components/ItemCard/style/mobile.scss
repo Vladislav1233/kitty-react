@@ -7,6 +7,7 @@
     overflow: hidden;
     text-align: left;
     transition: border-color $animation-time;
+    cursor: pointer;
 
     &--selected {
         border-color: $cl-pink;
@@ -14,6 +15,7 @@
 
     &--disabled {
         border-color: $cl-disabled-style;
+        cursor: not-allowed;
     }
 
     &__name {

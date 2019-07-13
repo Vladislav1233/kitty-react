@@ -9,6 +9,10 @@
         font-size: 1.6rem;
     }
 
+    &--main {
+        order: -1;
+    }
+
     &__prefix {
         font-family: $font-base-bold;
     }
