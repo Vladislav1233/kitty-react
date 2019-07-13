@@ -87,10 +87,6 @@ class ItemCard extends Component {
           </div>
 
           <div className={bemCls('information')}>
-            <div className={bemCls('image-wrapper')}>
-              <img  src={src} alt="Фото пушистого светлого кота с одетой на шею цепочкой на которой висит логотип компании фанбокс."/>
-            </div>
-
             <div className={bemCls('content')}>
               <h2 className={bemCls('name')}>
                 {item.name}
@@ -112,6 +108,10 @@ class ItemCard extends Component {
                   isHover={isHover}
                 />
               </div>
+            </div>
+
+            <div className={bemCls('image-wrapper')}>
+              <img  src={src} alt="Фото пушистого светлого кота с одетой на шею цепочкой на которой висит логотип компании фанбокс."/>
             </div>
           </div>
         </article>

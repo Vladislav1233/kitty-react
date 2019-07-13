@@ -1,5 +1,8 @@
 .b-item-card {
+    flex-grow: 1;
+
     &--hover & {
+
         &__information,
         &__head:before,
         &__figure:before {
