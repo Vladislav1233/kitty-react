@@ -23,6 +23,7 @@ $cl-light-pink: #e62e7a;
 $cl-gray: #b3b3b3;
 $cl-light-gray: #f2f2f2;
 $cl-dark-grey: #666666;
+$cl-yellow: #ffff66;
 
 // Colors
 // Цвета theme. Не трогать!!!
@@ -43,6 +44,8 @@ $cl-disabled-style: transparentize($cl-gray, 0.5);
 
 // разделитель между секция
 $hr-main: $cl-gray;
+
+$border-radius-item-card: 10px;
 
 // ------
 // ЦВЕТА

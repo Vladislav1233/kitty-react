@@ -12,7 +12,7 @@ class DescriptionText extends Component {
 
     return(
       <p className={bemCls({ [modif]: !!modif })}>
-        {data.prefix ? <span className={bemCls('prefix')}>{data.prefix}</span> : null}
+        {data.prefix ? <span className={bemCls('prefix')}>{data.prefix} </span> : null}
         {data.text}
       </p>
     )

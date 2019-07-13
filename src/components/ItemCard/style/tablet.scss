@@ -1,9 +1,18 @@
 .b-item-card {
-    &--hover {
-        border-color: $cl-light-blue;
+    &--hover & {
+        &__information,
+        &__head:before,
+        &__figure:before {
+            border-color: $cl-light-blue;
+        }
     }
 
-    &--selected.b-item-card--hover {
-        border-color: $cl-light-pink;
+    &--selected.b-item-card--hover & {
+
+        &__information,
+        &__head:before,
+        &__figure:before {
+            border-color: $cl-light-pink;
+        }
     }
 }

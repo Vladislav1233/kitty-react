@@ -1,0 +1,12 @@
+.b-description-text {
+    
+    &--main {
+        .b-item-card--hover & {
+            border-color: $cl-light-blue;
+        }
+
+        .b-item-card--selected.b-item-card--hover & {
+            border-color: $cl-light-pink;
+        }
+    }
+}

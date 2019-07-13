@@ -10,7 +10,23 @@
     }
 
     &--main {
-        order: -1;
+        display: inline-block;
+        width: calc(100% - 45px);
+        vertical-align: top;
+        background-color: $cl-light-gray;
+        border-top: 4px solid $cl-blue;
+        border-right: 4px solid $cl-blue;
+        padding-top: 18px;
+        border-top-right-radius: $border-radius-item-card;
+        transition: border-color $animation-time;
+
+        .b-item-card--selected & {
+            border-color: $cl-pink;
+        }
+
+        .b-item-card--disabled & {
+            border-color: $cl-disabled-style;
+        }
     }
 
     &__prefix {

@@ -78,41 +78,45 @@ class ItemCard extends Component {
           onMouseEnter={this.onEnterCard}
           onMouseLeave={this.onLeaveCard}
         >
-          <div className={bemCls('image-wrapper')}>
-            <img  src={src} alt="Фото пушистого светлого кота с одетой на шею цепочкой на которой висит логотип компании фанбокс."/>
-          </div>
-
-          <div className={bemCls('information')}>
-            <h2 className={bemCls('name')}>
-              {item.name}
-              <span>{item.descritpionName}</span>
-            </h2>
-            
-            {/* Note: modif --main for order: -1 that save semantic in html */}
+          <div className={bemCls('head')}>
+            <div className={bemCls('figure')}></div>
             <DescriptionText 
               data={item.descriptionTitle}
               modif='large b-description-text--main'
             />
+          </div>
 
-            {item.descriptionText.map((itemDescription, indexDescription) => (
-              <DescriptionText 
-                key={indexDescription}
-                data={itemDescription}
-              />
-            ))}
+          <div className={bemCls('information')}>
+            <div className={bemCls('image-wrapper')}>
+              <img  src={src} alt="Фото пушистого светлого кота с одетой на шею цепочкой на которой висит логотип компании фанбокс."/>
+            </div>
 
-            <div className={bemCls('weight')}>
-              <WeightLabel 
-                value={item.weight}
-                isSelected={isSelected}
-                isDisabled={disabled}
-                isHover={isHover}
-              />
+            <div className={bemCls('content')}>
+              <h2 className={bemCls('name')}>
+                {item.name}
+                <span>{item.descritpionName}</span>
+              </h2>
+
+              {item.descriptionText.map((itemDescription, indexDescription) => (
+                <DescriptionText 
+                  key={indexDescription}
+                  data={itemDescription}
+                />
+              ))}
+
+              <div className={bemCls('weight')}>
+                <WeightLabel 
+                  value={item.weight}
+                  isSelected={isSelected}
+                  isDisabled={disabled}
+                  isHover={isHover}
+                />
+              </div>
             </div>
           </div>
         </article>
 
-        <AboutBuy>
+        <AboutBuy modif={disabled && 'disabled'}>
           {aboutBuyContent()}
         </AboutBuy>
       </Fragment>

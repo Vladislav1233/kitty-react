@@ -6,7 +6,7 @@ import Pt from 'prop-types';
 const bemCls = bem('about-buy');
 
 const AboutBuy = ({ children, modif }) => (
-  <p className={bemCls('', modif)}>
+  <p className={bemCls({ [modif]: !!modif })}>
     {children}
   </p>
 )
