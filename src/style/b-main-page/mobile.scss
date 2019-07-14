@@ -3,11 +3,19 @@
 
     &__content {
         min-height: 100vh;
-        height: 1px; // Note: fix ie11 for justify-content: center; (https://stackoverflow.com/questions/19371626/flexbox-not-centering-vertically-in-ie)
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
         justify-content: center;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
+
+        & >:first-child {
+            margin-top: auto;
+        }
+
+        & >:last-child {
+            margin-bottom: auto;
+        }
     }
 }
