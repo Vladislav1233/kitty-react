@@ -1,6 +1,6 @@
 ## Project materials
 
-- [https://vladislav1233.github.io/kitty-react/](View project).
+- [View project](https://vladislav1233.github.io/kitty-react/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
