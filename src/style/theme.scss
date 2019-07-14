@@ -32,9 +32,10 @@ a {
     outline: none;
     text-decoration: none;
     color: $cl-theme-link;
+    transition: color $animation-time;
 
-    .no-touchevents &:hover,
-    .touchevents &:active {
+    &:hover,
+    &:active {
         color: $cl-theme-link-hover;
     }
 }
