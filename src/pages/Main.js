@@ -66,13 +66,19 @@ const bemCls = bem('main-page');
 
 class Main extends Component {
   render() {
+    const isIE = document.documentMode === 11;
+    const styleContainerIE = {
+      display: '-ms-flexbox'
+    };
+
     return(
       <div className={bemCls()}>
-        <div className="b-container">
+        <div className="b-container" style={isIE ? styleContainerIE : {}}>
           <div className={bemCls('content')}>
-            <PageTitle>Ты сегодня покормил кота?</PageTitle>
+            <PageTitle isIE={isIE}>Ты сегодня покормил кота?</PageTitle>
 
             <ProductList 
+              isIE={isIE}
               list={dataProductList}
             />
           </div>

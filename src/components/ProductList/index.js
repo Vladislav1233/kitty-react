@@ -28,10 +28,10 @@ const bemCls = bem('product-list');
 class ProductList extends Component {
 
   render() {
-    const { list } = this.props;
+    const { list, isIE } = this.props;
 
     return(
-      <ul className={bemCls()}>
+      <ul className={bemCls()} style={isIE ? {alignSelf: 'center'} : {}}>
         {list && list.length && list.map((item, index) => (
           <li key={index} className={bemCls('item')}>
             <ItemCard item={item} src={item.src} disabled={item.disabled} />
