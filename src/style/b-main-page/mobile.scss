@@ -3,6 +3,7 @@
 
     &__content {
         min-height: 100vh;
+        min-width: 100%; // Note: for ie11 fix flex
         display: flex;
         flex-direction: column;
         justify-content: center;
