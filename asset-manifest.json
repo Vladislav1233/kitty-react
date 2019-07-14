@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kitty-react/static/css/main.c523039b.chunk.css",
+    "main.css": "/kitty-react/static/css/main.1da4ce4d.chunk.css",
     "main.js": "/kitty-react/static/js/main.50ec81fa.chunk.js",
     "main.js.map": "/kitty-react/static/js/main.50ec81fa.chunk.js.map",
     "runtime~main.js": "/kitty-react/static/js/runtime~main.fd7c6ff8.js",
@@ -8,9 +8,9 @@
     "static/js/2.009169bb.chunk.js": "/kitty-react/static/js/2.009169bb.chunk.js",
     "static/js/2.009169bb.chunk.js.map": "/kitty-react/static/js/2.009169bb.chunk.js.map",
     "index.html": "/kitty-react/index.html",
-    "precache-manifest.d44adea548592d45cee5f4d93321b49e.js": "/kitty-react/precache-manifest.d44adea548592d45cee5f4d93321b49e.js",
+    "precache-manifest.75b7545bc1f4d176f946f6df6e8a372d.js": "/kitty-react/precache-manifest.75b7545bc1f4d176f946f6df6e8a372d.js",
     "service-worker.js": "/kitty-react/service-worker.js",
-    "static/css/main.c523039b.chunk.css.map": "/kitty-react/static/css/main.c523039b.chunk.css.map",
+    "static/css/main.1da4ce4d.chunk.css.map": "/kitty-react/static/css/main.1da4ce4d.chunk.css.map",
     "static/media/cat-photo.png": "/kitty-react/static/media/cat-photo.6422e599.png",
     "static/media/App.scss": "/kitty-react/static/media/trebuchetms.dda2997b.ttf"
   }
