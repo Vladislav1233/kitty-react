@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0px -20px;
+    min-width: 100%; // Note: for ie11 fix flex
 
     &__item {
         flex-shrink: 0;
