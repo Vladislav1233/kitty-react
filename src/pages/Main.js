@@ -67,6 +67,7 @@ const bemCls = bem('main-page');
 class Main extends Component {
   render() {
     const isIE = document.documentMode === '11';
+    console.log(document.documentMode)
     const styleContainerIE = {
       display: '-ms-flexbox'
     };
