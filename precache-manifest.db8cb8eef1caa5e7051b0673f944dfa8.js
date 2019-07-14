@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68faaae7c38edfadacc17892d5d91505",
+    "revision": "190aa45d76493088b58276deca6010f5",
     "url": "/kitty-react/index.html"
   },
   {
-    "revision": "5d8ad7178846840bc8f7",
-    "url": "/kitty-react/static/css/main.65121a60.chunk.css"
+    "revision": "03ec20f6ba493e5b922b",
+    "url": "/kitty-react/static/css/main.e594791f.chunk.css"
   },
   {
     "revision": "0ba05ae42430c5ac1131",
     "url": "/kitty-react/static/js/2.009169bb.chunk.js"
   },
   {
-    "revision": "5d8ad7178846840bc8f7",
-    "url": "/kitty-react/static/js/main.c575dfc5.chunk.js"
+    "revision": "03ec20f6ba493e5b922b",
+    "url": "/kitty-react/static/js/main.50ec81fa.chunk.js"
   },
   {
     "revision": "f938748baac240563cd9",
