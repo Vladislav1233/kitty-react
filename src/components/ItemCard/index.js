@@ -14,7 +14,7 @@ export const bemCls = bem('item-card');
 class ItemCard extends Component {
 
   state = {
-    isSelected: false, // selected or disabled
+    isSelected: false,
     isHover: false
   };
 
@@ -116,7 +116,7 @@ class ItemCard extends Component {
           </div>
         </article>
 
-        <AboutBuy modif={disabled && 'disabled'}>
+        <AboutBuy modif={disabled ? 'disabled' : ''}>
           {aboutBuyContent()}
         </AboutBuy>
       </Fragment>
@@ -126,7 +126,11 @@ class ItemCard extends Component {
 
 ItemCard.propTypes = {
   src: Pt.string.isRequired,
-  disabled: Pt.bool
+  disabled: Pt.bool,
+  item: Pt.shape({ 
+    descritpionName: Pt.string.isRequired,
+    name: Pt.string.isRequired
+  })
 };
 
 export default ItemCard;

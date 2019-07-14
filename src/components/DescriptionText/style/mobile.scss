@@ -10,14 +10,13 @@
     }
 
     &--main {
-        display: inline-block;
         width: calc(100% - 45px);
-        vertical-align: top;
         background-color: $cl-light-gray;
-        border-top: 4px solid $cl-blue;
-        border-right: 4px solid $cl-blue;
-        padding-top: 18px;
+        border-top: 4px solid;
+        border-right: 4px solid;
+        border-color: $cl-blue;
         border-top-right-radius: $border-radius-item-card;
+        padding-top: 18px;
         transition: border-color $animation-time;
 
         .b-item-card--selected & {
